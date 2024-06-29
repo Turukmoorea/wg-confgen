@@ -1,0 +1,6 @@
+# Ignore everything in the .secrets directory
+.secrets/*
+
+# Exception: Allow "file_for_add_to_git" in the .secrets directory
+!.secrets/file_for_add_to_git
+
